@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 # Check if run as root
 if [ "$(id -u)" -ne 0 ]; then
     echo "❌ This script must be run as root."
